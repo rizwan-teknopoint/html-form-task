@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Job Application Form</h1>
+    </header>
+    <main>
+        <form>
+            <div class="input-wrapper">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="" placeholder="Your Fullname" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="" placeholder="your email@mail.com" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="city">City:</label>
+                <input type="text" name="city" id="" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="pin-code">Pin Code:</label>
+                <input type="number" name="pin-code" id="" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="positions">Position applied for:</label>
+                <select name="positions" required>
+                    <option value="select">Select</option>
+                    <option value="php-developer">Php Developer</option>
+                    <option value="frontend-developer">Frontend Developer</option>
+                    <option value="backend-developer">Backend Developer</option>
+                    <option value="ui-ux-designer">UI/UX Designer</option>
+                </select>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="positions">Education:</label>
+                <select name="positions" required>
+                    <option value="select">Select</option>
+                    <option value="junior-college">Junior College</option>
+                    <option value="bachelors">Bachelor's</option>
+                    <option value="masters">Master's</option>
+                </select>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="education">Work Experience:</label>
+                <textarea name="" id="" rows="5" required></textarea>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="skills">Skills:</label>
+                <label for="html">
+                    <input type="checkbox" id="html" name="html" value="html">
+                    HTML
+                </label>
+                <label for="css">
+                    <input type="checkbox" id="css" name="css" value="css">
+                    CSS
+                </label>
+                <label for="JavaScript">
+                    <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+                    JavaScript
+                </label>
+                <label for="testing">
+                    <input type="checkbox" id="testing" name="testing" value="testing">
+                    Testing
+                </label>
+            </div>
+
+            <div class="input-wrapper">
+                <label>Gender:</label>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    Male
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female">
+                    Female
+                </label>
+                <label for="other">
+                    <input type="radio" id="other" name="gender" value="other">
+                    Other
+                </label>
+            </div>
+            
+            <div class="input-wrapper">
+                <label for="call">Prefered time for call:</label>
+                <input type="time" name="call" id="" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="resume">Upload resume:</label>
+                <input type="file" name="resume" id="" required>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+                <button type="submit">Reset</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
